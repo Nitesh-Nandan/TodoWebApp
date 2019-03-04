@@ -1,0 +1,49 @@
+.login-bar {
+    border : 1px solid rgba(28,110,164,0.33);
+    background-color : hsl(206, 20%, 93%);
+    padding : 10px;
+    width : 400px;
+    margin-bottom : 5px;
+}
+
+.signup-bar {
+    border : 1px solid rgba(28,110,164,0.33);
+    background-color : hsl(206, 20%, 93%);
+    padding : 10px;
+    width : 400px;
+    margin-bottom : 5px;
+}
+
+
+* Navbar css */
+
+nav-left{
+    float: left;
+}
+
+nav-left ul {
+    display: flex;
+    margin: auto,15px;
+    list-style: none;
+}
+
+nav-left ul li {
+    margin: 3px;
+    padding: 2px;
+}
+
+nav {
+    float: right;
+}
+nav ul{
+    display: flex;
+    margin: 15px;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 3px;
+    padding: 2px;
+}
+
+/* 

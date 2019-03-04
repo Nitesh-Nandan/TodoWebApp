@@ -1,0 +1,20 @@
+.tl {
+    font-family: Georgia,serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+.textBox-tl {
+    font-family: Georgia,serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.textbox{
+    border : 1px solid rgba(28,110,164,0.33);
+    background-color : hsl(206, 20%, 93%);
+    padding : 10px;
+    width : 400px;
+    margin-bottom : 5px;
+  }

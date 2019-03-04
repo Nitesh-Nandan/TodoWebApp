@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>TO-DO APP</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="/css/index.css">
+      <link rel="stylesheet" href="/css/addTodo.css">
+      <link rel="stylesheet" href="/css/dynamicContent.css">
+
+   </head>
+   <body>
+      <div class="wrapper">
+         <div class="header">
+            <nav-left>
+               <ul>
+                  <li><a href="/index.html">Home</a></li>
+                  <li><a href="/addTodo.html">AddNotes</a></li>
+                  <li><a href="/welcome.html">Show</a></li>
+                  <li><a href="">AboutMe</a></li>
+               </ul>
+            </nav-left>
+            <nav>
+               <ul>
+                  <li><a href="">Login</a></li>
+                  <li><a href="">Sign Up</a></li>
+               </ul>
+            </nav>
+         </div>
+         <div class="sidebar">
+            <div class="side-menu">
+               <ul>
+                  <li><a class="navbar-brand" href="" ><span class="glyphicon glyphicon-file">      Notes</span></a></li>
+                  <li><a class="navbar-brand" href="" ><span class="glyphicon glyphicon-bell">      Reminders</span></a></li>
+                  <li><a class="navbar-brand" href="" ><span class="glyphicon glyphicon-pencil">      Edit-Labels</span></a></li>
+                  <li><a class="navbar-brand" href="" ><span class="glyphicon glyphicon-save">      Archieve</span></a></li>
+                  <li><a class="navbar-brand" href="" ><span class="glyphicon glyphicon-trash">      Trash</span></a></li>
+               </ul>
+            </div>
+         </div>
+
+         <div class="content">
+            
+            <div id="greeting">
+               TO-DO Items
+            </div>
+
+            <div class="list-todo">
+               <p>List items</p>
+                 <div id="list-todo-container">
+                 </div>
+            </div>
+
+            <div class="text-todo">
+               <p>Text items</p>
+                  <div id="text-todo-container">
+                  </div>
+               </div>
+                
+            </div>
+         </div>
+         <div class="footer">&copy; 2019 Nitesh Nandan</div>
+      </div>
+      
+      <script src="/js/resource/jquery-3.3.1.min.js"></script>
+      <script src="/js/util/util.js"></script>
+      <script src="/js/model/model.js"></script>
+      <script src="/js/view/view.js"></script>
+      <script src="/js/controller/indexController.js"></script>
+   </body>
+</html>

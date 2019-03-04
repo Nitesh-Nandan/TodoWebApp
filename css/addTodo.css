@@ -1,0 +1,49 @@
+.text-attribute{
+  font : bold;
+}
+
+p {
+  margin-top : 2px;
+  padding : 1px;
+}
+
+.text-field{
+  width : 350px;
+}
+
+.add-box {
+  width : 400px;
+  border : solid 1px;
+  border-radius : 20px;
+  text-align: left;
+}
+
+.list-box-container{
+  padding : 20px;
+}
+
+.list-box-container ul {
+  list-style-type: none;
+}
+
+.text-box-container{
+  padding : 20px;
+}
+
+textarea#todo-text-note {
+  width : 350px;
+  height : 100px;
+  padding : 2px;
+}
+
+.list-todo{
+  font-family: Georgia,serif;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+.text-todo {
+    font-family: Georgia,serif;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
